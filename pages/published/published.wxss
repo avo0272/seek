@@ -1,0 +1,28 @@
+
+.container {
+    width: 100%;
+    padding: 20rpx;
+  }
+
+  .info {
+    font-size: 28rpx;
+    color: #333;
+    margin-bottom: 10rpx;
+    text-align: left;
+  }
+  .delete-button {
+      width: 1000px;
+    background-color: red;
+    color: white; 
+    border: none; 
+    padding: 8rpx; 
+    border-radius: 20rpx; 
+    transition: background-color 0.03s; 
+  }
+  
+  .delete-button:hover {
+    background-color: darkred; 
+  }
+  
+
+  

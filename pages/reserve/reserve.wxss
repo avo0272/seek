@@ -1,0 +1,96 @@
+/* pages/form/form.wxss */
+
+.container {
+    padding: 20rpx;
+  }
+  
+  .form-item {
+    margin-bottom: 20rpx
+  }
+  
+  .label {
+    display: inline-block;
+    width: 170rpx;
+  }
+  
+  .input {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10rpx;
+    border-radius: 5rpx;
+  }
+  
+  .textarea {
+    width: 100%;
+    min-height: 100rpx;
+    border: 1px solid #ccc;
+    padding: 10rpx;
+    border-radius: 5rpx;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .picker {
+    display: inline-block;
+    padding: 10rpx;
+    border: 1px solid #ccc;
+    border-radius: 5rpx;
+  }
+  
+  .submit-btn {
+    text-align: center;
+    margin-top: 20rpx;
+  }
+  
+  .submit-btn button {
+    padding: 10rpx 20rpx;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5rpx;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+.picker-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .picker-box {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  
+  .custom-date-picker,
+  .custom-time-picker {
+    flex: 1; 
+    height: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden; 
+    margin-right: 10px; 
+  }
+  
+  .custom-date-picker .date,
+  .custom-time-picker .shijian {
+    text-align: center;
+    line-height: 40px; 
+    font-size: 14px;
+  }
+  

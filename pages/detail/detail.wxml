@@ -1,0 +1,10 @@
+
+<view wx:for="{{list}}" class="container">
+
+    <view class="info">出发点：{{item.startPoint}}</view>
+    <view class="info">目的地：{{item.endPoint}}</view>
+    <view class="info">备注：{{item.remark}}</view>
+    <view class="info">联系方式：{{item.contact}}</view>
+    <view><image src="{{item.imageSrc}}" mode=""/></view>
+
+</view>

@@ -1,0 +1,37 @@
+{
+    "entryPagePath": "pages/index/index",
+    "pages": [
+        "pages/index/index",
+        "pages/userinfo/userinfo",
+        "pages/reserve/reserve",
+        "pages/lookup/lookup",
+        "pages/detail/detail",
+        "pages/published/published"
+    ],
+    "window": {
+        "navigationBarTitleText": "seek",
+        "navigationBarBackgroundColor": "#f3514f",
+        
+        "backgroundColor": "#efefef"
+    },
+    "tabBar": {
+        "selectedColor": "#f3514f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./image/sy.png",
+                "selectedIconPath": "./image/sy1.png"
+            },
+            {
+                "pagePath": "pages/userinfo/userinfo",
+                "text": "个人中心",
+                "iconPath": "./image/my.png",
+                "selectedIconPath": "./image/my1.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,15 @@
+
+.container {
+    width: 100%;
+    padding: 20rpx;
+  }
+
+  .info {
+    font-size: 28rpx;
+    color: #333;
+    margin-bottom: 10rpx;
+    text-align: left;
+  }
+  
+
+  

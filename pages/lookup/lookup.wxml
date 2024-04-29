@@ -1,0 +1,16 @@
+<!-- reserve.wxml -->
+
+<view class="container">
+
+  <!-- 循环展示每个表单块 -->
+  <view wx:for="{{formList}}" wx:key="_id" class="every">
+    <!-- 表单块 -->
+    <navigator url="/pages/detail/detail?_id={{item._id}}">
+    <view class="form-block" >
+      <view class="info">出发点：{{item.startPoint}}</view>
+      <view class="info">目的地：{{item.endPoint}}</view>
+      <view class="info">备注：{{item.remark}}</view>
+    </view>
+</navigator>
+  </view>
+</view>

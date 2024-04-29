@@ -1,0 +1,29 @@
+/* reserve.wxss */
+
+.container {
+    width: 100%;
+    padding: 20rpx;
+  }
+  .every{
+      width: 100%;
+  }
+  .form-block {
+    width: 100%;
+    background-color: #fff;
+    padding: 20rpx;
+    margin-bottom: 20rpx;
+    border-bottom: 1rpx solid #eee; 
+  }
+  
+  .info {
+    font-size: 28rpx;
+    color: #333;
+    margin-bottom: 10rpx;
+    text-align: left;
+  }
+  
+  .separator {
+    height: 1rpx;
+    background-color: #eee;
+  }
+  

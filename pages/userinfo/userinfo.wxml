@@ -1,0 +1,14 @@
+<view class="login" style="background-image: url(/image/eye1.jpg)">
+<view wx:if="{{nickName}}" class="logined">
+	<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+	<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <button type="default" bindtap="loginOut" class="loginout">退出登录</button>
+</view>
+<!--如果用户没有登录，显示登录按钮  -->
+<view wx:if="{{!nickName}}" class="btn-login">
+	<button type="primary" bindtap="getUserProfile">授权登录</button>
+</view>
+</view>
+<view class="published" bind:tap="published">
+<text>我的发布</text>
+</view>

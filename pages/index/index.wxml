@@ -1,0 +1,47 @@
+<!-- 轮播图 -->
+<view class="swiper">
+<swiper autoplay="ture" interval="2000" indicator-dots="ture" indicator-active-color="#efefef" circular="ture">
+    <swiper-item>
+        <image src="../../image/wei.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+        <image src="../../image/wei.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+        <image src="../../image/wei.jpg" mode=""/>
+    </swiper-item>
+</swiper>
+</view>
+<!-- 公告 -->
+<view class="news">
+    <view class="news_left">
+    <image class="image2" src="../../image/gz.png" mode=""/>
+        <view class="news_title">
+        【公告】
+        </view>
+    </view>
+    <view class="news_right">
+    <swiper class="swiper-news-top" autoplay="ture" circular="ture" interval="3000" vertical="true">
+        <block wx:for="{{msgList}}" wx:key="id">
+          <swiper-item>
+            <view class="box">
+              <text class="animate">{{item.text}}</text>
+            </view>
+          </swiper-item> 
+      </block>
+    </swiper>
+    </view>
+</view>
+<!-- 功能模块 -->
+<view class="module">
+<view class="first_module">
+    <view class="first_left" bindtap="reserve">
+    <image src="../../image/yy1.png" mode=""/>
+    <text>预约行程</text>
+    </view>
+    <view class="second" bind:tap="lookup">
+        <image src="../../image/order.png" mode=""/>
+        <text>查看行程</text>
+    </view>
+</view>
+</view>

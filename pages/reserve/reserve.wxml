@@ -1,0 +1,49 @@
+
+
+<view class="container">
+
+  <view class="form-item">
+    <text class="label">出发点：</text>
+    <input class="input" placeholder="请输入出发点" bindinput="inputStartPoint"/>
+  </view>
+
+
+  <view class="form-item">
+    <text class="label">目的地：</text>
+    <input class="input" placeholder="请输入目的地" bindinput="inputEndPoint"/>
+  </view>
+
+
+  <view class="form-item">
+    <text class="label">联系方式：</text>
+    <input class="input" placeholder="请输入联系方式" bindinput="inputContact"/>
+  </view>
+
+
+  <view class="form-item">
+    <text class="label">上传图片：</text>
+    <image class="image" src="{{imageSrc}}" bindtap="uploadImage"></image>
+  </view>
+
+
+  <view class="picker-box">
+  <view class="picker-title">选择时间：</view>  
+  <picker mode="date" class="custom-date-picker" value="{{date}}" bindchange="bindDateChange">  
+    <view class="date">{{date}}</view>  
+  </picker>  
+  <picker mode="time" class="custom-time-picker" value="{{time}}" bindchange="bindTimeChange">  
+    <view class="shijian">{{time}}</view>  
+  </picker>  
+</view>
+
+
+  <view class="form-item">
+    <text class="label">备注：</text>
+    <textarea class="textarea" placeholder="请输入备注" bindinput="inputRemark"></textarea>
+  </view>
+
+  
+  <view class="submit-btn">
+    <button bindtap="formSubmit">提交</button>
+  </view>
+</view>
